@@ -1,0 +1,53 @@
+#welcome-section{
+  background-color: #ffebe1;
+  text-align: center;
+  height: 100vh;
+  display:flex;
+  justify-content:center;
+}
+
+#welcome-section section{
+  margin:auto;
+}
+
+#subtitle {
+  color: #008080;
+  font-size:1.5em;
+}
+
+#title {
+  text-align: center;
+  font-size:3.2em;
+}
+
+*{}
+margin:0px;
+padding:0px;
+font-family:sans-serif;
+
+#slider{
+  position:fixed;
+  width:20px;
+  height:100%;
+  backgroung: #151719;
+}
+
+#sider ul li{
+  color:rgba(230,230,230,0.9);
+  list-style:none;
+  padding:15px 10px;
+  border-bottom:1px solid rgba(100,100,100,0.3);
+}
+
+#siderbar .toggle-btn{
+  position:absolute;
+  left:230px;
+  top:20px;
+}
+
+#siderbar .toggle-btn span{
+  display:block;
+  width:30px;
+  height:5px;
+  backgroung: #151719;
+}
