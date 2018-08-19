@@ -1,0 +1,45 @@
+<!-- Welcome section -->
+  <div id="welcome-section" >
+    <section class= "row">
+     <h1 id="title">Hello World! I'm Polina</h1>
+      <p id="subtitle">Young and hungry of knowledge Web Developer</p>
+      </ul>
+    </section>
+  </div>
+
+
+<body>
+
+	<div id="sidebar">
+
+		<ul>
+			<li><a href="#">PROFILE</a></li>
+			<li><a href="#">PROJECTS</a></li>
+			<li><a href="#">ABOUT ME</a></li>
+			<li><a href="#">CONTACT</a></li>
+		</ul>
+
+		<div id="sidebar-btn">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+
+	</div>
+
+	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script>
+
+	$(document).ready(function(){
+		$('#sidebar-btn').click(function(){
+			$('#sidebar').toggleClass('visible');
+		});
+	});
+
+	</script>
+
+</body>
+</html>
+

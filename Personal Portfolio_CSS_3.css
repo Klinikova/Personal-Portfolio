@@ -1,0 +1,90 @@
+#welcome-section{
+  background-color: #ffebe1;
+  text-align: center;
+  height: 100vh;
+  display:flex;
+  justify-content:center;
+}
+
+#welcome-section section{
+  margin:auto;
+}
+
+#subtitle {
+  color: #008080;
+  font-size:1.5em;
+}
+
+#title {
+  text-align: center;
+  font-size:3.2em;
+}
+
+*{}
+margin:0px;
+padding:0px;
+font-family:sans-serif;
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family:"Helvetica Neue", Helvetica, Arial;
+}
+
+#sidebar{
+	background:#ffffff;
+	width:200px;
+	height:100%;
+	display:block;
+	position:absolute;
+	left:-200px;
+	top:0px;
+	transition:left 0.3s linear;
+}
+
+#sidebar.visible{
+	left:0px;
+	transition:left 0.3s linear;
+}
+
+ul{
+	margin:0px;
+	padding:0px;
+  color: blue; 
+}
+
+ul li{
+	list-style:none;
+  
+}
+
+ul li a{
+	background:#f5f5f5;
+	color: #008080;
+	border-bottom:1px solid #111;
+	display:block;
+	width:180px;
+	padding:10px;
+	text-decoration: none;
+}
+
+#sidebar-btn{
+	display:inline-block;
+	vertical-align: middle;
+	width:20px;
+	height:15px;
+	cursor:pointer;
+	margin:20px;
+	position:absolute;
+	top:0px;
+	right:-60px;
+}
+
+#sidebar-btn span{
+	height:3px;
+	background:#111;
+	margin-bottom:5px;
+	display:block;
+}
+
+
