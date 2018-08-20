@@ -1,0 +1,74 @@
+img{
+  display:inline-block;
+}
+
+.container{
+  width:1740px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.row:after{
+  clear:both;
+  content:"";
+  display:table;
+}
+
+.col-4{
+  width:360x;
+  margin-right:70px;
+  margin-left:70px;
+  float:left;
+}
+
+.col-4:last-child{
+  margin-right:0px;
+}
+
+.title{
+  font-size:46px;
+  margin-bottom:60px;
+  font-family:"Merriweather", serif;
+  text-align:center;
+  }
+
+.portfolio{
+  padding-top:70px;
+  padding-bottom:100px;
+}
+
+.portfolio-item{
+  margin-bottom:20px;
+  
+}
+
+.portfolio-item_img{
+    margin-bottom:17px;
+}
+
+.portfolio-item_title{
+  font-size:24px;
+  line-height:normal;
+  margin-bottom:5px;
+}
+
+.portfolio-item_text{
+    font-size:16px;
+    line-height:1.5;
+}
+
+.portfolio-item_title a{
+    text-decoration:none;
+    color:#000;
+    border-bottom: 1px solid #FFF;
+}
+
+.portfolio-item_title a:hover{
+    color:#0052C2;
+    border-color: rgba(0, 82, 194, 0.3);
+}
+
+.portfolio-item_text p{
+  margin-top:0px;
+  margin-bottom:15px;
+}
