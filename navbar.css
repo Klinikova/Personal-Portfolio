@@ -1,0 +1,49 @@
+body{
+  margin:0;
+  font-weight:300;
+}
+
+.container{
+  width:80%;
+  margin:0 auto;
+}
+
+header{
+  background: #ffebe1;
+}
+
+header::after{
+  content: '';
+  display:table;
+  clear:both;
+}
+
+nav{
+  float:right;
+}
+
+nav ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+nav li{
+  display:inline-block;
+  margin-left:70px;
+  padding-top:20px;
+  padding-bottom:20px;
+  position:relative;
+}
+
+nav ul li a{
+  color:#000;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:20px;
+}
+
+nav a:hover{
+  color: blue;
+}
+
