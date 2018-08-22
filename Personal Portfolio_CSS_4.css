@@ -1,0 +1,177 @@
+*{
+margin:auto;
+padding:auto;
+font-family:sans-serif;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family:"Helvetica Neue", Helvetica, Arial;
+}
+
+nav ul li a{
+  color:#000;
+  background-color:#ffebe1;
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+nav ul {
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  background-color: #ffebe1;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 55px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+nav ul li a {
+  color: #008080;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: blue;
+}
+
+
+#welcome-section{
+  background-color: #ffebe1;
+  text-align: center;
+  height: 100vh;
+  display:flex;
+  justify-content:center;
+}
+
+#welcome-section section{
+  margin:auto;
+}
+
+#title {
+  text-align: center;
+  font-size:3.2em;
+}
+
+#subtitle {
+  color: #008080;
+  font-size:1.5em;
+}
+
+#sidebar{
+	background:#ffffff;
+	width:200px;
+	height:100%;
+	display:block;
+	position:absolute;
+	left:-200px;
+	top:0px;
+	transition:left 0.3s linear;
+}
+
+#sidebar.visible{
+	left:0px;
+	transition:left 0.3s linear;
+}
+
+#sidebar-btn{
+	display:inline-block;
+	vertical-align: middle;
+	width:20px;
+	height:15px;
+	cursor:pointer;
+	margin:20px;
+	position:absolute;
+	top:0px;
+	right:-60px;
+}
+
+#sidebar-btn span{
+	height:3px;
+	background:#111;
+	margin-bottom:5px;
+	display:block;
+}
+
+img{
+  display:inline-block;
+}
+
+.drid-container{
+  width:740px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.row:after{
+  clear:both;
+  content:"";
+  display:table;
+}
+
+.col-4{
+  width:360x;
+  margin-right:70px;
+  margin-left:70px;
+  float:left;
+}
+
+.col-4:last-child{
+  margin-right:0px;
+}
+
+.title{
+  font-size:46px;
+  margin-bottom:60px;
+  font-family:"Merriweather", serif;
+  text-align:center;
+  }
+
+.portfolio{
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.portfolio-item{
+  margin-bottom:20px;  
+}
+
+.portfolio-item_img{
+    margin-bottom:17px;
+}
+
+.portfolio-item_title{
+  font-size:24px;
+  line-height:normal;
+  margin-bottom:5px;
+}
+
+.portfolio-item_text{
+    font-size:16px;
+    line-height:1.5;
+}
+
+.portfolio-item_title a{
+    text-decoration:none;
+    color:#000;
+    border-bottom: 1px solid #FFF;
+}
+
+.portfolio-item_title a:hover{
+    color:#0052C2;
+    border-color: rgba(0, 82, 194, 0.3);
+}
+
+.portfolio-item_text p{
+  margin-top:0px;
+  margin-bottom:15px;
+}
